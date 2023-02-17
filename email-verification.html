@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<style type="text/css">
+@media screen {
+    @font-face {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+    }
+    
+    @font-face {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/qdgUG4U09HnJwhYI-uK18wLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+    }
+    
+    @font-face {
+        font-family: 'Lato';
+        font-style: italic;
+        font-weight: 400;
+        src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/RYyZNoeFgb0l7W3Vu1aSWOvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+    }
+    
+    @font-face {
+        font-family: 'Lato';
+        font-style: italic;
+        font-weight: 700;
+        src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYELO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+    }
+}
+body, table, td, a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+        .main-wrapper{
+            padding:20px;
+        }
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        /* RESET STYLES */
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+
+        table {
+            border-collapse: collapse !important;
+        }
+
+        body {
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+        }
+
+        /* iOS BLUE LINKS */
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+        .backlinear-header{
+            padding: 50px 10px 0px 10px;
+            background: linear-gradient(242deg, #5da626 25%, #15c3d6 100%);
+        }
+        td.td-verify-section{
+            border-radius: 3px; 
+            background: linear-gradient(242deg, #5da626 25%, #1c7c0f 100%) !important; 
+        }
+        td.td-verify-section>a.btn-verify{
+            font-size: 20px; 
+            font-family: Helvetica, Arial, sans-serif;
+            color: #ffffff; 
+            text-decoration: none; 
+            padding: 15px 25px; 
+            border-radius: 2px;  
+            display: inline-block;
+        }
+        /* MOBILE STYLES */
+        @media screen and (max-width:600px) {
+            h1 {
+                font-size: 32px !important;
+                line-height: 32px !important;
+            }
+        }
+
+        /* ANDROID CENTER FIX */
+        div[style*="margin: 16px 0;"] {
+            margin: 0 !important;
+        }
+</style>
+</head>
+<body style="background-color: #f4f4f4; margin: 0 !important; padding: 0 !important;">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" style=" padding-bottom: 30px;">
+        <tr>
+            <td bgcolor="#f4f4f4" align="center" class="backlinear-header" style="padding: 50px 10px 0px 10px; background: linear-gradient(242deg, #5da626 25%, #15c3d6 100%);">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 50%; min-width: 350px;">
+                    <tr>
+                        <td bgcolor="#ffffff" align="left" style="padding: 20px 40px 10px 40px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 25px; border-radius: 5px 5px 0px 0px;">
+                            <p>
+                                Hi {{Name}},
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="#f4f4f4" align="center" style="padding: 0px 10px 0px 10px;">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 50%; min-width: 350px; margin-bottom: 30px;">
+                    <tr>
+                        <td bgcolor="#ffffff" align="left" style="padding: 10px 40px 10px 40px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 25px;">
+                            <p style="margin: 0;">
+                                We&apos;re excited to have you get started! First, you need to confirm your account before you kick start with your event. Just click the link button below.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#ffffff" align="left">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td bgcolor="#ffffff" align="center" style="padding: 20px 40px 20px 40px;">
+                                        <table border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td bgcolor="#1c7c0f" align="center" class="td-verify-section" style="border-radius: 3px; background: linear-gradient(242deg, #5da626 25%, #1c7c0f 100%) !important; " >
+                                                    <a href="{{VERIFICATION_LINK}}" class="btn-verify" target="_blank" style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; padding: 15px 25px; border-radius: 2px;  display: inline-block;">Activate Account</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#ffffff" align="left" style="padding: 0px 40px 20px 40px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 25px;">
+                            Didn't work? You can also click the link below. <br>
+                            <a href="{{VERIFICATION_LINK}}" target="_blank" rel="noopener noreferrer">{{VERIFICATION_LINK}}</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#ffffff" align="left" style="padding: 0px 40px 20px 40px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 25px;">
+                            <p style="margin: 0;">
+                                If you have any questions. Please feel free to inform us - We&apos;re always ready to help out.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#ffffff" align="left" style="padding: 20px 40px 40px 40px; border-radius: 0px 0px 4px 4px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 25px;">
+                            <p style="margin: 0;">
+                                Cheers, <br>
+                                Customer Support Team.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        
+        <tr>
+            <td bgcolor="#f4f4f4" align="center" style="padding: 0px 10px 0px 10px;">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 50%; min-width: 350px; margin-bottom: 30px;">
+                    <tr>
+                        <td align="left" style="padding: 10px 40px 10px 40px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 25px;">
+                            <div style="text-align:center;">
+                                <p>Log In <a href="{{LOGIN_URL}}" target="_blank" rel="noopener noreferrer">here</a> to visit Our System.<br>If you have any questions, please contact <a href="mailto:dev.aungkyawhtwe@gmail.com">{{SUPPROT_MAIL}}</a></p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
